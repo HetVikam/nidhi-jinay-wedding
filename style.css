@@ -9,6 +9,19 @@
   margin-left: auto !important;
   margin-right: auto !important;
 }
+/* Fix mobile hero date and scroll prompt overlap */
 .scroll-cue {
-  bottom: 1rem;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  font-size: 0.55rem;
+  letter-spacing: 0.15em;
+  z-index: 5;
+}
+
+.hero-date {
+  margin-bottom: 3rem;
 }
